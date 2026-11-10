@@ -15,7 +15,7 @@
     "lint": "eslint .",
     "format": "prettier --check .",
     "typecheck": "tsc --noEmit -p tsconfig.json && pnpm --filter @ra/extension typecheck",
-    "licenses": "node scripts/check-licenses.mjs"
+    "licenses:check": "node scripts/check-licenses.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
