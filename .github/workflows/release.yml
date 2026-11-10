@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: pnpm }
       - run: pnpm install --frozen-lockfile
-      - run: pnpm test && pnpm licenses
+      - run: pnpm test && pnpm licenses:check
       - run: pnpm zip
       - uses: actions/upload-artifact@v4
         with: { name: extension-zip, path: apps/extension/dist/*.zip }

@@ -17,5 +17,5 @@ Tailorbird bundles the following third-party software. Each keeps its own licenc
 
 The Tailorbird name and logo are the author's own work and are not covered by the licences above.
 
-Run `pnpm licenses` to check every production dependency against the allow list.
+Run `pnpm licenses:check` to check every production dependency against the allow list.
 The full licence texts of bundled packages are in their npm packages.

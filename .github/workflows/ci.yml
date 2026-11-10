@@ -13,7 +13,7 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm test
       - run: pnpm eval
-      - run: pnpm licenses
+      - run: pnpm licenses:check
       - run: pnpm build
       - run: npx playwright install chromium --with-deps
       - run: pnpm e2e
