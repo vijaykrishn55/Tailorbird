@@ -1,0 +1,14 @@
+{
+  "name": "@ra/latex",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@ra/schemas": "workspace:*",
+    "@ra/verify": "workspace:*",
+    "zod": "^3.24.1"
+  }
+}

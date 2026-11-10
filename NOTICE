@@ -1,0 +1,21 @@
+Tailorbird is released under the MIT licence (see LICENSE).
+Copyright (c) 2026 Vijay Krishna.
+
+Tailorbird bundles the following third-party software. Each keeps its own licence.
+
+- Typst compiler, as WebAssembly via typst.ts and typst-ts-web-compiler (Apache-2.0)
+  https://github.com/Myriad-Dreamin/typst.ts  and  https://github.com/typst/typst
+- Inter typeface, via @expo-google-fonts/inter (SIL Open Font License 1.1)
+  https://github.com/rsms/inter
+  Used inside the PDF builder. It is bundled with the extension and is not sold on its own.
+- pdf.js, via pdfjs-dist (Apache-2.0)  https://github.com/mozilla/pdf.js
+- React and React DOM (MIT)
+- Zustand (MIT)
+- Zod (MIT)
+- MiniSearch (MIT)
+- WXT, used to build the extension (MIT)
+
+The Tailorbird name and logo are the author's own work and are not covered by the licences above.
+
+Run `pnpm licenses` to check every production dependency against the allow list.
+The full licence texts of bundled packages are in their npm packages.

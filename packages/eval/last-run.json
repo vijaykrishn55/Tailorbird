@@ -1,0 +1,182 @@
+[
+  {
+    "job": "be-1",
+    "gate": "fabrication",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "job": "be-1",
+    "gate": "role-fit",
+    "pass": true,
+    "detail": "top pick gw, expected gw"
+  },
+  {
+    "job": "be-1",
+    "gate": "analysis",
+    "pass": true,
+    "detail": "found 3/3 expected terms"
+  },
+  {
+    "job": "be-1",
+    "gate": "coverage",
+    "pass": true,
+    "detail": "ratio 0.67"
+  },
+  {
+    "job": "be-1",
+    "gate": "injection",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "job": "be-1",
+    "gate": "schema",
+    "pass": true,
+    "detail": "9 bullets"
+  },
+  {
+    "job": "aie-1",
+    "gate": "fabrication",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "job": "aie-1",
+    "gate": "role-fit",
+    "pass": true,
+    "detail": "top pick rag, expected rag"
+  },
+  {
+    "job": "aie-1",
+    "gate": "analysis",
+    "pass": true,
+    "detail": "found 3/3 expected terms"
+  },
+  {
+    "job": "aie-1",
+    "gate": "coverage",
+    "pass": true,
+    "detail": "ratio 0.80"
+  },
+  {
+    "job": "aie-1",
+    "gate": "injection",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "job": "aie-1",
+    "gate": "schema",
+    "pass": true,
+    "detail": "9 bullets"
+  },
+  {
+    "job": "fe-1",
+    "gate": "fabrication",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "job": "fe-1",
+    "gate": "role-fit",
+    "pass": true,
+    "detail": "top pick ui, expected ui"
+  },
+  {
+    "job": "fe-1",
+    "gate": "analysis",
+    "pass": true,
+    "detail": "found 2/2 expected terms"
+  },
+  {
+    "job": "fe-1",
+    "gate": "coverage",
+    "pass": true,
+    "detail": "ratio 1.00"
+  },
+  {
+    "job": "fe-1",
+    "gate": "injection",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "job": "fe-1",
+    "gate": "schema",
+    "pass": true,
+    "detail": "9 bullets"
+  },
+  {
+    "job": "be-2",
+    "gate": "fabrication",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "job": "be-2",
+    "gate": "role-fit",
+    "pass": true,
+    "detail": "top pick gw, expected gw"
+  },
+  {
+    "job": "be-2",
+    "gate": "analysis",
+    "pass": true,
+    "detail": "found 2/2 expected terms"
+  },
+  {
+    "job": "be-2",
+    "gate": "coverage",
+    "pass": true,
+    "detail": "ratio 0.40"
+  },
+  {
+    "job": "be-2",
+    "gate": "injection",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "job": "be-2",
+    "gate": "schema",
+    "pass": true,
+    "detail": "9 bullets"
+  },
+  {
+    "job": "aie-2",
+    "gate": "fabrication",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "job": "aie-2",
+    "gate": "role-fit",
+    "pass": true,
+    "detail": "top pick rag, expected rag"
+  },
+  {
+    "job": "aie-2",
+    "gate": "analysis",
+    "pass": true,
+    "detail": "found 2/2 expected terms"
+  },
+  {
+    "job": "aie-2",
+    "gate": "coverage",
+    "pass": true,
+    "detail": "ratio 1.00"
+  },
+  {
+    "job": "aie-2",
+    "gate": "injection",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "job": "aie-2",
+    "gate": "schema",
+    "pass": true,
+    "detail": "9 bullets"
+  }
+]

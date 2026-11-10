@@ -1,0 +1,32 @@
+{
+  "name": "resume-agent",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev": "pnpm --filter @ra/extension dev",
+    "build": "pnpm --filter @ra/extension build",
+    "zip": "pnpm --filter @ra/extension zip",
+    "test": "vitest run",
+    "eval": "tsx packages/eval/src/run-eval.ts",
+    "e2e": "tsx apps/extension/tests/e2e/smoke.ts",
+    "lint": "eslint .",
+    "format": "prettier --check .",
+    "typecheck": "tsc --noEmit -p tsconfig.json && pnpm --filter @ra/extension typecheck",
+    "licenses": "node scripts/check-licenses.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.17.0",
+    "jsdom": "^25.0.1",
+    "playwright": "^1.49.0",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.2",
+    "vitest": "^2.1.8"
+  }
+}

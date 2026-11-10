@@ -1,0 +1,15 @@
+{
+  "name": "@ra/retrieval",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@ra/schemas": "workspace:*",
+    "@ra/providers": "workspace:*",
+    "minisearch": "^7.1.1",
+    "zod": "^3.24.1"
+  }
+}
